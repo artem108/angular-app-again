@@ -1,10 +1,10 @@
-import { AngularAppAgainPage } from './app.po';
+import { TodoAngPage } from './app.po';
 
-describe('angular-app-again App', function() {
-  let page: AngularAppAgainPage;
+describe('todo-ang App', function() {
+  let page: TodoAngPage;
 
   beforeEach(() => {
-    page = new AngularAppAgainPage();
+    page = new TodoAngPage();
   });
 
   it('should display message saying app works', () => {

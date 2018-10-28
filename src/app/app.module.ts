@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule
   ],
-  providers: [httpService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
